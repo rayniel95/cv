@@ -52,3 +52,5 @@ cv:
           - Desarrollé un microservicio OTP serverless utilizando AWS Lambda y DynamoDB con expiración TTL para verificación por correo electrónico.
           - Implementé funciones AWS Lambda para el procesamiento escalable de archivos JSON y datos estructurados.
           - "Stack: AWS, Python, Serverless Framework, API Gateway, GraphQL, AppSync, Boto3, Postman, AWS CDK, TypeScript, Django REST Framework, Step Functions, DynamoDB, XState, SQL, PostgreSQL y pgAdmin."
+design:
+  theme: engineeringclassic
