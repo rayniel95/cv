@@ -44,16 +44,26 @@ cv:
         start_date: 2025-08
         end_date: 2025-12
         summary: >
-          Proyecto Bylaws: Desarrollo de un servicio para extraer información estructurada
-          desde contratos de constitución de empresas en formato PDF. El sistema obtenía el
-          documento desde el Registro de Empresas y Sociedades (RES), extraía el texto y lo
-          enviaba a GPT-4o para generar un objeto JSON con la información estructurada.
-          Mi trabajo incluyó el desarrollo backend y la validación de la precisión de las
-          respuestas generadas por el LLM.
+          Proyecto Bylaws: Este proyecto consistió en desarrollar un servicio 
+          para extraer datos estructurados a partir de contratos de constitución 
+          de empresas en formato PDF. El servicio leía los archivos PDF, 
+          previamente descargados del RES (Registro de Empresas y Sociedades), 
+          extraía el texto del contrato y lo enviaba a un LLM (Large Language 
+          Model o Modelo de Lenguaje de Gran Escala). Posteriormente, el LLM 
+          generaba un objeto JSON con los datos estructurados. Para este 
+          servicio, utilizamos GPT-4o como modelo de lenguaje. Mi rol incluyó 
+          desarrollo backend y verificación de la precisión de las respuestas 
+          generadas por el LLM.
         highlights:
-          - Implementé un comparador que valida automáticamente las respuestas del LLM utilizando JSONs generados manualmente como referencia.
-          - Implementé la lógica backend para recibir el RUT de una empresa, localizar su contrato de constitución, enviarlo al LLM y devolver el JSON estructurado.
-          - Validé la API REST utilizando Postman para garantizar el cumplimiento del contrato solicitud/respuesta.
+          - Implementé un comparador que utiliza JSONs extraídos manualmente con 
+            anterioridad para validar automáticamente la precisión de las 
+            respuestas del LLM.
+          - Implementé la lógica backend para recibir el RUT de la empresa, 
+            buscar su contrato de constitución, enviarlo al LLM y recibir el 
+            archivo JSON estructurado como resultado.
+          - Validé la funcionalidad de la API REST y el cumplimiento del contrato 
+            de la misma utilizando Postman, asegurando que los endpoints 
+            cumplieran con las especificaciones esperadas de solicitud/respuesta.
           - "Stack: AWS, Python, Bitbucket, Boto3, Postman, AWS Lambda, JSON, Amazon S3, Pydantic, SQL, PostgreSQL y pgAdmin."
       - company: Datamart
         position: Backend Developer | Cloud Developer
