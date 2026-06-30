@@ -87,6 +87,29 @@ cv:
             JSON grandes y conjuntos de datos estructurados, habilitando un 
             procesamiento de datos escalable y sin servidor.
           - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, AWS Apigateway, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django REST Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, SQL, PostgreSQL, pgAdmin."
+      - company: Datamart
+        position: Backend Developer | Cloud Developer
+        location: La Habana, Cuba
+        start_date: 2023-02
+        end_date: 2024-06
+        summary: >
+          Proyecto Nómina Avanzada: Este proyecto tuvo como objetivo la creación 
+          de una plataforma SaaS que pudiera ser usada por los ejecutivos de 
+          Rankmi para crear solicitudes de pago de una parte de la nómina de un 
+          trabajador. A traves de una plataforma web, un empleado, podría 
+          solicitar a su empleador, un adelanto del sueldo trabajado.
+        highlights:
+          - Implementé múltiples AWS API Gateway (Rest API), con más de 20 
+            endpoints, los cuales actuaban como proxies de un AWS Appsync 
+            (GraphQl) u otros microservicios. Permitiendo la comunicación entre 
+            los sistemas de Rankmi y Datamart.
+          - Implementé consultas SQL complejas para crear paginación.
+          - Implementé una AWS Step Function (máquina de estados) para 
+            administrar el llamado a apis de múltiples microservicios, además de 
+            para la manipulación de datos. Esto en un entorno sin servidor 
+            (serverless), reduciendo el costo y tiempo de ejecución del 
+            microservicio.
+          - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin."
     Proyectos personales:
       - name: Raymed
         start_date: 2025-01
