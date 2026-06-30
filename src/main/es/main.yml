@@ -64,7 +64,7 @@ cv:
           - Validé la funcionalidad de la API REST y el cumplimiento del contrato 
             de la misma utilizando Postman, asegurando que los endpoints 
             cumplieran con las especificaciones esperadas de solicitud/respuesta.
-          - "Stack: AWS, Python, Bitbucket, Boto3, Postman, AWS Lambda, JSON, Amazon S3, Pydantic, SQL, PostgreSQL y pgAdmin."
+          - "Stack: Amazon Web Services (AWS), Python, BitBucket, Boto3, Postman, AWS Lambda Functions, JSON, AWS S3, Pydantic, SQL, PostgreSQL, pgAdmin."
       - company: Datamart
         position: Backend Developer | Cloud Developer
         location: La Habana, Cuba
