@@ -21,6 +21,23 @@ cv:
         pueda prescindir.
 
     Experiencia:
+      - company: Deep Kernel Labs
+        position: Software Engineer | Data Engineer
+        location: Ourense, Galicia, España
+        start_date: 2026-04
+        end_date: 2026-06
+        summary: >
+          Proyecto Applus: Este proyecto consistió en el desarrollo de una plataforma 
+          web para la entidad certificadora acreditada Applus. La plataforma permite 
+          estandarizar los procesos de inspección, crear nuevos flujos de inspección a 
+          partir de la normativa mediante asistencia de IA, interactuar con un 
+          chatbot impulsado por IA para responder preguntas sobre los procedimientos 
+          de inspección.
+        highlights:
+          - Contribuí al diseño de la arquitectura de la plataforma, colaborando en la definición de la estructura general del sistema y en la toma de decisiones técnicas.
+          - Diseñé e implementé, usando Python, React y desarrollo asistido por IA, una funcionalidad que permite visualizar las fuentes normativas referenciadas en cada paso del proceso de inspección, proporcionando trazabilidad directa entre los procedimientos de inspección y los requisitos regulatorios correspondientes.
+          - Extendí, utilizando Python, docling y desarrollo asistido por IA, una biblioteca existente para extraer y convertir secciones de documentos normativos a HTML, permitiendo que los LLMs procesaran la información de forma más eficiente y precisa.
+          - "Stack: Python, Django Rest Framework, JSON, SQL, PostgreSQL, pgAdmin, Claude Code (Opus 4.7), Git, Github, React, Docker, docker-compose, docling (Python library), contenedores."
       - company: Datamart
         position: Backend Developer | Cloud Developer
         location: La Habana, Cuba
