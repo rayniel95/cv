@@ -9,7 +9,7 @@ cv:
     - https://github.com/rayniel95
 
   sections:
-    profile:
+    Acerca de mí:
       - |
         Soy un apasionado del desarrollo de software y de la exploración de nuevas tecnologías.
         Prefiero buscar y aprender la herramienta que funcione mejor para resolver el problema.
@@ -20,7 +20,7 @@ cv:
         Me encanta participar en el desarrollo de un software desde cero hasta convertirlo en un
         producto del que el cliente no pueda prescindir.
 
-    experience:
+    Experiencia:
       - company: Datamart
         position: Backend Developer | Cloud Developer
         location: La Habana, Cuba
