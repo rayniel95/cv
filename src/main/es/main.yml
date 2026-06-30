@@ -86,7 +86,7 @@ cv:
           - Implementé funciones AWS Lambda para procesar y manipular archivos 
             JSON grandes y conjuntos de datos estructurados, habilitando un 
             procesamiento de datos escalable y sin servidor.
-          - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, AWS Apigateway, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django REST Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, SQL, PostgreSQL, pgAdmin."
+          - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL."
       - company: Datamart
         position: Backend Developer | Cloud Developer
         location: La Habana, Cuba
