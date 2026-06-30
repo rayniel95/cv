@@ -11,14 +11,14 @@ cv:
   sections:
     Acerca de mí:
       - |
-        Soy un apasionado del desarrollo de software y de la exploración de nuevas tecnologías.
-        Prefiero buscar y aprender la herramienta que funcione mejor para resolver el problema.
-        Sin embargo, en todos los cargos anteriores he usado la tecnología exigida por el cliente.
-
-        Trabajador, inquisitivo, creativo, colaborador, proactivo y detallista.
-        Adaptado a trabajar con metodologías ágiles (SCRUM).
-        Me encanta participar en el desarrollo de un software desde cero hasta convertirlo en un
-        producto del que el cliente no pueda prescindir.
+        Soy un apasionado del desarrollo de software y de la exploración de nuevas
+        tecnologías. Prefiero buscar y aprender la herramienta que funcione mejor 
+        para resolver el problema. Sin embargo, en todos los cargos anteriores he 
+        usado la tecnología exigida por el cliente. Trabajador, inquisitivo, 
+        creativo, colaborador, proactivo y detallista. Adaptado a trabajar con 
+        metodologías ágiles (SCRUM). Me encanta participar en el desarrollo de un 
+        software desde cero hasta convertirlo en un producto del que el cliente no 
+        pueda prescindir.
 
     Experiencia:
       - company: Datamart
