@@ -1,0 +1,54 @@
+cv:
+  name: Rainyel Ramos González
+  location: Ourense, Galicia, España
+  email: rainyel.ramos@gmail.com
+  phone: "+34 635200752"
+  website: 
+    - https://rayniel95.github.io
+    - https://www.linkedin.com/in/rainyel-ramos
+    - https://github.com/rayniel95
+
+  sections:
+    profile:
+      - |
+        Soy un apasionado del desarrollo de software y de la exploración de nuevas tecnologías.
+        Prefiero buscar y aprender la herramienta que funcione mejor para resolver el problema.
+        Sin embargo, en todos los cargos anteriores he usado la tecnología exigida por el cliente.
+
+        Trabajador, inquisitivo, creativo, colaborador, proactivo y detallista.
+        Adaptado a trabajar con metodologías ágiles (SCRUM).
+        Me encanta participar en el desarrollo de un software desde cero hasta convertirlo en un
+        producto del que el cliente no pueda prescindir.
+
+    experience:
+      - company: Datamart
+        position: Backend Developer | Cloud Developer
+        location: La Habana, Cuba
+        start_date: 2025-08
+        end_date: 2025-12
+        summary: >
+          Proyecto **Bylaws**. Desarrollo de un servicio para extraer información estructurada
+          desde contratos de constitución de empresas en formato PDF. El sistema obtenía el
+          documento desde el Registro de Empresas y Sociedades (RES), extraía el texto y lo
+          enviaba a GPT-4o para generar un objeto JSON con la información estructurada.
+          Mi trabajo incluyó el desarrollo backend y la validación de la precisión de las
+          respuestas generadas por el LLM.
+        highlights:
+          - Implementé un comparador que valida automáticamente las respuestas del LLM utilizando JSONs generados manualmente como referencia.
+          - Implementé la lógica backend para recibir el RUT de una empresa, localizar su contrato de constitución, enviarlo al LLM y devolver el JSON estructurado.
+          - Validé la API REST utilizando Postman para garantizar el cumplimiento del contrato solicitud/respuesta.
+          - "Stack: AWS, Python, Bitbucket, Boto3, Postman, AWS Lambda, JSON, Amazon S3, Pydantic, SQL, PostgreSQL y pgAdmin."
+      - company: Datamart
+        position: Backend Developer | Cloud Developer
+        location: La Habana, Cuba
+        start_date: 2023-02
+        end_date: 2024-06
+        summary: >
+          Proyecto **BCI PymePJ**. Plataforma SaaS desarrollada para el banco chileno BCI,
+          permitiendo la apertura digital de cuentas para pequeñas y medianas empresas mediante
+          un flujo guiado desde dispositivos móviles.
+        highlights:
+          - Implementé más de diez endpoints utilizando Django REST Framework para el núcleo principal del sistema.
+          - Desarrollé un microservicio OTP serverless utilizando AWS Lambda y DynamoDB con expiración TTL para verificación por correo electrónico.
+          - Implementé funciones AWS Lambda para el procesamiento escalable de archivos JSON y datos estructurados.
+          - "Stack: AWS, Python, Serverless Framework, API Gateway, GraphQL, AppSync, Boto3, Postman, AWS CDK, TypeScript, Django REST Framework, Step Functions, DynamoDB, XState, SQL, PostgreSQL y pgAdmin."
