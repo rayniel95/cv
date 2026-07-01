@@ -37,7 +37,7 @@ cv:
           - Contribuí al diseño de la arquitectura de la plataforma, colaborando en la definición de la estructura general del sistema y en la toma de decisiones técnicas.
           - Diseñé e implementé, usando Python, React y desarrollo asistido por IA, una funcionalidad que permite visualizar las fuentes normativas referenciadas en cada paso del proceso de inspección, proporcionando trazabilidad directa entre los procedimientos de inspección y los requisitos regulatorios correspondientes.
           - Extendí, utilizando Python, docling y desarrollo asistido por IA, una biblioteca existente para extraer y convertir secciones de documentos normativos a HTML, permitiendo que los LLMs procesaran la información de forma más eficiente y precisa.
-          - "Stack: Python, Django Rest Framework, JSON, SQL, PostgreSQL, pgAdmin, Claude Code (Opus 4.7), Git, Github, React, Docker, docker-compose, docling (Python library), contenedores."
+          - "Stack: Python, Django Rest Framework, JSON, SQL, PostgreSQL, pgAdmin, Claude Code (Opus 4.7), Git, Github, React, Docker, docker-compose, docling (Python library), contenedores, Api Rest."
       - company: Datamart
         position: Backend Developer | Cloud Developer
         location: La Habana, Cuba
@@ -86,7 +86,7 @@ cv:
           - Implementé funciones AWS Lambda para procesar y manipular archivos 
             JSON grandes y conjuntos de datos estructurados, habilitando un 
             procesamiento de datos escalable y sin servidor.
-          - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL."
+          - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL, Api Rest."
       - company: Datamart
         position: Backend Developer | Cloud Developer
         location: La Habana, Cuba
@@ -109,7 +109,7 @@ cv:
             para la manipulación de datos. Esto en un entorno sin servidor 
             (serverless), reduciendo el costo y tiempo de ejecución del 
             microservicio.
-          - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin."
+          - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin, Api Rest."
     Proyectos personales:
       - name: Raymed
         start_date: 2025-01
