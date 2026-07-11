@@ -11,19 +11,14 @@ cv:
   sections:
     Acerca de mí:
       - |
-        Ingeniero de Software con casi 5 años de experiencia en el desarrollo 
-        de aplicaciones backend y soluciones cloud sobre AWS. He diseñando e 
-        implementando arquitecturas 
-        escalables y mantenibles utilizando principalmente Python y Node.js 
-        (TypeScript). Me 
-        adapto con rapidez a nuevas tecnologías y lenguajes cuando el proyecto 
-        lo requiere. Además de mi experiencia profesional, he desarrollado 
-        proyectos personales con Rust, Go, Solidity, React, C#, Prolog y 
-        ensamblador x86, lo que me permite abordar los problemas desde una 
-        perspectiva amplia y elegir la tecnología más adecuada para cada caso. 
-        Disfruto enfrentándome a retos técnicos, aprendiendo continuamente y 
-        colaborando en equipos ágiles (Scrum) para construir software de 
-        calidad que aporte valor al negocio.
+        Soy un apasionado del desarrollo de software y de la exploración de nuevas
+        tecnologías. Prefiero buscar y aprender la herramienta que funcione mejor 
+        para resolver el problema. Sin embargo, en todos los cargos anteriores he 
+        usado la tecnología exigida por el cliente. Trabajador, inquisitivo, 
+        creativo, colaborador, proactivo y detallista. Adaptado a trabajar con 
+        metodologías ágiles (SCRUM). Me encanta participar en el desarrollo de un 
+        software desde cero hasta convertirlo en un producto del que el cliente no 
+        pueda prescindir.
 
     Experiencia:
       - company: Deep Kernel Labs
@@ -42,7 +37,7 @@ cv:
           - Contribuí al diseño de la arquitectura de la plataforma, colaborando en la definición de la estructura general del sistema y en la toma de decisiones técnicas.
           - Diseñé e implementé, usando Python, React y desarrollo asistido por IA, una funcionalidad que permite visualizar las fuentes normativas referenciadas en cada paso del proceso de inspección, proporcionando trazabilidad directa entre los procedimientos de inspección y los requisitos regulatorios correspondientes.
           - Extendí, utilizando Python, docling y desarrollo asistido por IA, una biblioteca existente para extraer y convertir secciones de documentos normativos a HTML, permitiendo que los LLMs procesaran la información de forma más eficiente y precisa.
-          - "Stack: Python, Django Rest Framework, JSON, SQL, PostgreSQL, pgAdmin, Claude Code (Opus 4.7), Git, Github, React, Docker, docker-compose, docling (Python library), contenedores, Api Rest."
+          - "Stack: Python, Django Rest Framework, JSON, SQL, PostgreSQL, pgAdmin, Claude Code (Opus 4.7), Git, Github, React, Docker, docker-compose, docling (Python library), contenedores."
       - company: Datamart
         position: Backend Developer | Cloud Developer
         location: La Habana, Cuba
@@ -91,7 +86,7 @@ cv:
           - Implementé funciones AWS Lambda para procesar y manipular archivos 
             JSON grandes y conjuntos de datos estructurados, habilitando un 
             procesamiento de datos escalable y sin servidor.
-          - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL, Api Rest."
+          - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL."
       - company: Datamart
         position: Backend Developer | Cloud Developer
         location: La Habana, Cuba
@@ -114,7 +109,7 @@ cv:
             para la manipulación de datos. Esto en un entorno sin servidor 
             (serverless), reduciendo el costo y tiempo de ejecución del 
             microservicio.
-          - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin, Api Rest."
+          - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin."
     Proyectos personales:
       - name: Raymed
         start_date: 2025-01
@@ -140,7 +135,7 @@ cv:
         start_date: 2015-09
         end_date: 2020-06
         highlights:
-          - Título de grado homologado en España. Contactar para solicitar credencial.
+          - Título de grado homologado en España.
 locale:
   language: spanish
 design:
