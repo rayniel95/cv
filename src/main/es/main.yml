@@ -141,6 +141,10 @@ cv:
         end_date: 2020-06
         highlights:
           - Título de grado homologado en España. Contactar para solicitar credencial.
+          - "Lenguajes: Español (Nativo), Inglés (B2)"
+    # Lenguajes:
+    #   - bullet: Español (Nativo)
+    #   - bullet: Inglés (B2)
 locale:
   language: spanish
 design:
