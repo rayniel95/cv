@@ -30,16 +30,15 @@ cv:
         start_date: 2026-04
         end_date: 2026-06
         summary: >
-          Proyecto Applus: Este proyecto consistió en el desarrollo de una plataforma 
-          web para la entidad certificadora acreditada Applus. La plataforma permite 
-          estandarizar los procesos de inspección, crear nuevos flujos de inspección a 
-          partir de la normativa mediante asistencia de IA, interactuar con un 
-          chatbot impulsado por IA para responder preguntas sobre los procedimientos 
-          de inspección.
+          Project Applus: This project involved developing a web platform for the accredited 
+          certification authority, Applus. The platform standardizes inspection processes, enables 
+          the creation of new inspection workflows from regulatory standards using AI assistance, 
+          allows users to visualize the regulatory sources referenced throughout each inspection 
+          process, and provides an AI-powered chatbot to answer questions about inspection procedures.
         highlights:
-          - Contribuí al diseño de la arquitectura de la plataforma, colaborando en la definición de la estructura general del sistema y en la toma de decisiones técnicas.
-          - Diseñé e implementé, usando Python, React y desarrollo asistido por IA, una funcionalidad que permite visualizar las fuentes normativas referenciadas en cada paso del proceso de inspección, proporcionando trazabilidad directa entre los procedimientos de inspección y los requisitos regulatorios correspondientes.
-          - Extendí, utilizando Python, docling y desarrollo asistido por IA, una biblioteca existente para extraer y convertir secciones de documentos normativos a HTML, permitiendo que los LLMs procesaran la información de forma más eficiente y precisa.
+          - Contributed to the design of the platform's architecture, collaborating on the overall system structure and technical decision-making.
+          - Designed and implemented, using Python, React, and AI-assisted development, a feature that enables users to visualize the regulatory norms referenced at each step of an inspection process, providing direct traceability between inspection procedures and their corresponding regulatory requirements.
+          - Extended an existing library using Python, Docling, and AI-assisted development to extract and convert sections of regulatory documents into HTML, enabling large language models (LLMs) to process the information more efficiently and accurately.
           - "Stack: Python, Django Rest Framework, JSON, SQL, PostgreSQL, pgAdmin, Claude Code (Opus 4.7), Git, Github, React, Docker, docker-compose, docling (Python library), contenedores."
       - company: Datamart
         position: Backend Developer | Cloud Developer
