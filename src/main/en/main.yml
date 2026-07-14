@@ -139,6 +139,6 @@ cv:
         highlights:
           - Título de grado homologado en España.
 locale:
-  language: spanish
+  language: english
 design:
   theme: engineeringclassic
