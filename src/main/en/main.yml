@@ -51,8 +51,7 @@ cv:
           service read the PDFs, previously downloaded from the RES (Registro de Empresas 
           y Sociedades), extracted the contract text, and sent it to an LLM (Large 
           Language Model). Then, the LLM generated a JSON object with the structured 
-          data. We used GPT-4o as the LLM for this service. My role involved backend 
-          development and verifying the accuracy of the LLM responses.
+          data. We used GPT-4o as the LLM for this service.
         highlights:
           - Implemented a comparator that uses previously extracted JSONs manually 
             to automatically check the accuracy of the LLM responses.
@@ -73,8 +72,7 @@ cv:
           SaaS platform that could be used by BCI clients to open pyme (pequeñas 
           y medianas empresas) accounts. The platform allow bank clients to follow 
           a simple guided process from their phones to introduce their data and 
-          open the account. By the bank side there is another platform that 
-          communicate with the first, it us used to accept the client requests.
+          open the account.
         highlights:
           - Developed 10+ endpoints in a Django REST API server to support core 
             system functionality.
@@ -96,10 +94,7 @@ cv:
           SaaS platform that could be used by Rankmi employees to create payroll 
           advance requests. This platform offer the functionality to manage (create, 
           list, view status, delete, etc.) the payroll advance requested by employees 
-          to them employers through Rankmi. A widget is offered by datamart, this 
-          widget can be embed into Rankmi web systems and employees can interact with 
-          the platform. My work was about to create the functionalities of this SaaS 
-          platform. 
+          to them employers through Rankmi.
         highlights:
           - Implemented multiples AWS API Gateway (Rest API) with more than 20 
             endpoints that act as a proxy to an AWS Appsync (GraphQl) (or others 
