@@ -106,7 +106,7 @@ cv:
             calls to different microservice and data manipulation in a serverless 
             way. Reducing the cost and execution time of the microservice.
           - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin."
-    Proyectos personales:
+    Personal Projects:
       - name: Raymed
         start_date: 2025-01
         end_date: 2025-02
@@ -121,8 +121,8 @@ cv:
             drug exposures, and notes using inheritance to improve code readability 
             and reusability.
           - "Stack: Typescript, React, Next.js, Node.js, Bootstrap, Alchemy SDK, Hardhat, Hardhat Ignition, React Query, RainbowKit, Pinata, React Admin, Viem, Solidity, HTML, CSS."
-    Educación:
-      - institution: Univertisty of Havana
+    Education:
+      - institution: University of Havana
         area: Computer Science
         location: Havana, Cuba
         degree: Lic.
