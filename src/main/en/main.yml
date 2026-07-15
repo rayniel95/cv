@@ -127,14 +127,15 @@ cv:
             and reusability.
           - "Stack: Typescript, React, Next.js, Node.js, Bootstrap, Alchemy SDK, Hardhat, Hardhat Ignition, React Query, RainbowKit, Pinata, React Admin, Viem, Solidity, HTML, CSS."
     Educación:
-      - institution: Universidad de La Habana
-        area: Ciencia de la Computación
-        location: La Habana, Cuba
+      - institution: Univertisty of Havana
+        area: Computer Science
+        location: Havana, Cuba
         degree: Lic.
         start_date: 2015-09
         end_date: 2020-06
         highlights:
-          - Título de grado homologado en España.
+          - Bachelor’s degree officially recognized (homologated) in Spain. Please 
+            contact me to request the official recognition credential.
 locale:
   language: english
 design:
