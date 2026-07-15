@@ -42,30 +42,25 @@ cv:
           - "Stack: Python, Django Rest Framework, JSON, SQL, PostgreSQL, pgAdmin, Claude Code (Opus 4.7), Git, Github, React, Docker, docker-compose, docling (Python library), contenedores."
       - company: Datamart
         position: Backend Developer | Cloud Developer
-        location: La Habana, Cuba
+        location: Havana, Cuba
         start_date: 2025-08
         end_date: 2025-12
         summary: >
-          Proyecto Bylaws: Este proyecto consistió en desarrollar un servicio 
-          para extraer datos estructurados a partir de contratos de constitución 
-          de empresas en formato PDF. El servicio leía los archivos PDF, 
-          previamente descargados del RES (Registro de Empresas y Sociedades), 
-          extraía el texto del contrato y lo enviaba a un LLM (Large Language 
-          Model o Modelo de Lenguaje de Gran Escala). Posteriormente, el LLM 
-          generaba un objeto JSON con los datos estructurados. Para este 
-          servicio, utilizamos GPT-4o como modelo de lenguaje. Mi rol incluyó 
-          desarrollo backend y verificación de la precisión de las respuestas 
-          generadas por el LLM.
+          Project Bylaws: This project involved developing a service to extract 
+          structured data from company creation contracts in PDF format. The 
+          service read the PDFs, previously downloaded from the RES (Registro de Empresas 
+          y Sociedades), extracted the contract text, and sent it to an LLM (Large 
+          Language Model). Then, the LLM generated a JSON object with the structured 
+          data. We used GPT-4o as the LLM for this service. My role involved backend 
+          development and verifying the accuracy of the LLM responses.
         highlights:
-          - Implementé un comparador que utiliza JSONs extraídos manualmente con 
-            anterioridad para validar automáticamente la precisión de las 
-            respuestas del LLM.
-          - Implementé la lógica backend para recibir el RUT de la empresa, 
-            buscar su contrato de constitución, enviarlo al LLM y recibir el 
-            archivo JSON estructurado como resultado.
-          - Validé la funcionalidad de la API REST y el cumplimiento del contrato 
-            de la misma utilizando Postman, asegurando que los endpoints 
-            cumplieran con las especificaciones esperadas de solicitud/respuesta.
+          - Implemented a comparator that uses previously extracted JSONs manually 
+            to automatically check the accuracy of the LLM responses.
+          - Implemented the backend logic to receive the company RUT, search for the 
+            company creation contract, send it to an LLM, and receive the 
+            structured JSON file.
+          - Validated REST API functionality and contract compliance using Postman, 
+            ensuring endpoints met expected request/response specifications.
           - "Stack: Amazon Web Services (AWS), Python, BitBucket, Boto3, Postman, AWS Lambda Functions, JSON, AWS S3, Pydantic, SQL, PostgreSQL, pgAdmin."
       - company: Datamart
         position: Backend Developer | Cloud Developer
