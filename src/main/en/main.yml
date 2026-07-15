@@ -87,26 +87,29 @@ cv:
           - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL."
       - company: Datamart
         position: Backend Developer | Cloud Developer
-        location: La Habana, Cuba
+        location: Havana, Cuba
         start_date: 2022-08
         end_date: 2023-01
         summary: >
-          Proyecto Nómina Avanzada: Este proyecto tuvo como objetivo la creación 
-          de una plataforma SaaS que pudiera ser usada por los ejecutivos de 
-          Rankmi para crear solicitudes de pago de una parte de la nómina de un 
-          trabajador. A traves de una plataforma web, un empleado, podría 
-          solicitar a su empleador, un adelanto del sueldo trabajado.
+          Project Payroll Advance: This project is related to increase the systems 
+          functionalities of Rankmi. The basic idea of this project was to create a 
+          SaaS platform that could be used by Rankmi employees to create payroll 
+          advance requests. This platform offer the functionality to manage (create, 
+          list, view status, delete, etc.) the payroll advance requested by employees 
+          to them employers through Rankmi. A widget is offered by datamart, this 
+          widget can be embed into Rankmi web systems and employees can interact with 
+          the platform. My work was about to create the functionalities of this SaaS 
+          platform. 
         highlights:
-          - Implementé múltiples AWS API Gateway (Rest API), con más de 20 
-            endpoints, los cuales actuaban como proxies de un AWS Appsync 
-            (GraphQl) u otros microservicios. Permitiendo la comunicación entre 
-            los sistemas de Rankmi y Datamart.
-          - Implementé consultas SQL complejas para crear paginación.
-          - Implementé una AWS Step Function (máquina de estados) para 
-            administrar el llamado a apis de múltiples microservicios, además de 
-            para la manipulación de datos. Esto en un entorno sin servidor 
-            (serverless), reduciendo el costo y tiempo de ejecución del 
-            microservicio.
+          - Implemented multiples AWS API Gateway (Rest API) with more than 20 
+            endpoints that act as a proxy to an AWS Appsync (GraphQl) (or others 
+            microservices) and where the Rankmi system could communicate with 
+            datamart system.
+          - Implemented complex SQL queries to create pagination in paginate 
+            endpoints improving system performance.
+          - Implemented a AWS Step Function to manage the workflow of multiple api 
+            calls to different microservice and data manipulation in a serverless 
+            way. Reducing the cost and execution time of the microservice.
           - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin."
     Proyectos personales:
       - name: Raymed
