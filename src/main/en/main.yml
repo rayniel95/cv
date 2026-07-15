@@ -64,25 +64,26 @@ cv:
           - "Stack: Amazon Web Services (AWS), Python, BitBucket, Boto3, Postman, AWS Lambda Functions, JSON, AWS S3, Pydantic, SQL, PostgreSQL, pgAdmin."
       - company: Datamart
         position: Backend Developer | Cloud Developer
-        location: La Habana, Cuba
+        location: Havana, Cuba
         start_date: 2023-02
         end_date: 2024-06
         summary: >
-          Proyecto BCI PymePJ: Este proyecto tuvo como objetivo la creación de 
-          una plataforma SaaS para el banco chileno BCI. Esta plataforma permitía 
-          a los clientes del banco la apertura de cuentas para pymes (pequeñas y 
-          medianas empresas). Todo ello siguiendo un proceso guiado y desde las 
-          terminales móviles de cada cliente.
+          Project BCI PymePj: This project is related to create a SaaS platform 
+          for chilean bank BCI. The basic idea of this project is to create a 
+          SaaS platform that could be used by BCI clients to open pyme (pequeñas 
+          y medianas empresas) accounts. The platform allow bank clients to follow 
+          a simple guided process from their phones to introduce their data and 
+          open the account. By the bank side there is another platform that 
+          communicate with the first, it us used to accept the client requests.
         highlights:
-          - Implementé más de 10 endpoints en un servidor de Django REST Framework, 
-            ayudando a desarrollar el núcleo principal del sistema.
-          - Construí un microservicio OTP (One-Time Password) seguro y sin servidor 
-            (serverless) utilizando AWS Lambda y DynamoDB, con expiración basada 
-            en el tiempo de vida (TTL), permitiendo la verificación de usuarios 
-            mediante correo electrónico.
-          - Implementé funciones AWS Lambda para procesar y manipular archivos 
-            JSON grandes y conjuntos de datos estructurados, habilitando un 
-            procesamiento de datos escalable y sin servidor.
+          - Developed 10+ endpoints in a Django REST API server to support core 
+            system functionality.
+          - Built a secure, serverless OTP (One-Time Password) microservice using 
+            AWS Lambda and DynamoDB with TTL-based expiration, enabling email-based 
+            user verification.
+          - Implemented AWS Lambda functions to process and manipulate large JSON 
+            payloads and structured datasets, enabling scalable serverless data 
+            processing.
           - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL."
       - company: Datamart
         position: Backend Developer | Cloud Developer
