@@ -74,7 +74,7 @@ cv:
         start_date: 2023-02
         end_date: 2024-06
         summary: >
-          Proyecto BCI PymePJ: Este proyecto tuvo como objetivo la creación de 
+          Proyectos (BCI Pagos, BCI PymePJ: Este proyecto tuvo como objetivo la creación de 
           una plataforma SaaS para el banco chileno BCI. Esta plataforma permitía 
           a los clientes del banco la apertura de cuentas para pymes (pequeñas y 
           medianas empresas). Todo ello siguiendo un proceso guiado y desde las 
@@ -113,6 +113,24 @@ cv:
             (serverless), reduciendo el costo y tiempo de ejecución del 
             microservicio.
           - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin, Api Rest."
+      - company: AgTrace
+        position: Backend Developer | Blockchain Developer
+        location: La Habana, Cuba
+        start_date: 2021-10
+        end_date: 2021-11
+        summary: >
+          Proyecto AgTrace Blockchain: AgTrace es una startup brasileña que 
+          propone una 
+          solución de trazabilidad basada en blockchain para rastrear todas las 
+          etapas de la cadena alimentaria. En este proyecto, implementé 
+          una red Corda con todos los componentes necesarios para desplegar la 
+          solución del cliente.
+        highlights:
+          - Creé una red Corda descentralizada utilizando instancias AWS EC2 y 
+            Docker.
+          - Desplegué los nodos Corda en contenedores Docker dentro de instancias 
+            AWS EC2.
+          - "Stack: Corda, Kotlin, AWS EC2, Amazon Web Services (AWS), Docker, Docker-compose, Thunder Client, Api Rest, Cloud."
     # Proyectos personales:
     #   - name: Raymed
     #     start_date: 2025-01
