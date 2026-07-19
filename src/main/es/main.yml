@@ -99,7 +99,7 @@ cv:
           Proyecto Nómina Avanzada: Este proyecto tuvo como objetivo la creación 
           de una plataforma SaaS que pudiera ser usada por los ejecutivos de 
           Rankmi para crear solicitudes de pago de una parte de la nómina de un 
-          trabajador. A traves de una plataforma web, un empleado, podría 
+          trabajador. A través de una plataforma web, un empleado, podría 
           solicitar a su empleador, un adelanto del sueldo trabajado.
         highlights:
           - Implementé múltiples AWS API Gateway (Rest API), con más de 20 
