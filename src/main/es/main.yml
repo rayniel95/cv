@@ -115,23 +115,23 @@ cv:
             (serverless), reduciendo el costo y tiempo de ejecución del 
             microservicio.
           - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin, Api Rest."
-    Proyectos personales:
-      - name: Raymed
-        start_date: 2025-01
-        end_date: 2025-02
-        summary: >
-          Este proyecto es un panel de administración de historiales clínicos. A 
-          través del panel, es posible almacenar información sobre pacientes, 
-          administradores y médicos, o añadir información sobre exposiciones a 
-          fármacos y notas de pacientes. Toda la información se almacena como 
-          NFTs (Non-Fungible Tokens o Tokens No Fungibles) en la testnet de 
-          Sepolia (Ethereum).
-        highlights:
-          - Implementé contratos inteligentes de NFTs (ERC-721) para 
-            administradores, médicos, pacientes, exposiciones a fármacos y notas, 
-            utilizando herencia para mejorar la legibilidad y reutilización del 
-            código.
-          - "Stack: Typescript, React, Next.js, Node.js, Bootstrap, Alchemy SDK, Hardhat, Hardhat Ignition, React Query, RainbowKit, Pinata, React Admin, Viem, Solidity, HTML, CSS."
+    # Proyectos personales:
+    #   - name: Raymed
+    #     start_date: 2025-01
+    #     end_date: 2025-02
+    #     summary: >
+    #       Este proyecto es un panel de administración de historiales clínicos. A 
+    #       través del panel, es posible almacenar información sobre pacientes, 
+    #       administradores y médicos, o añadir información sobre exposiciones a 
+    #       fármacos y notas de pacientes. Toda la información se almacena como 
+    #       NFTs (Non-Fungible Tokens o Tokens No Fungibles) en la testnet de 
+    #       Sepolia (Ethereum).
+    #     highlights:
+    #       - Implementé contratos inteligentes de NFTs (ERC-721) para 
+    #         administradores, médicos, pacientes, exposiciones a fármacos y notas, 
+    #         utilizando herencia para mejorar la legibilidad y reutilización del 
+    #         código.
+    #       - "Stack: Typescript, React, Next.js, Node.js, Bootstrap, Alchemy SDK, Hardhat, Hardhat Ignition, React Query, RainbowKit, Pinata, React Admin, Viem, Solidity, HTML, CSS."
     Educación:
       - institution: Universidad de La Habana
         area: Ciencia de la Computación
