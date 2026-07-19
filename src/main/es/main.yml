@@ -56,9 +56,7 @@ cv:
           extraía el texto del contrato y lo enviaba a un LLM (Large Language 
           Model o Modelo de Lenguaje de Gran Escala). Posteriormente, el LLM 
           generaba un objeto JSON con los datos estructurados. Para este 
-          servicio, utilizamos GPT-4o como modelo de lenguaje. Mi rol incluyó 
-          desarrollo backend y verificación de la precisión de las respuestas 
-          generadas por el LLM.
+          servicio, utilizamos GPT-4o como modelo de lenguaje.
         highlights:
           - Implementé un comparador que utiliza JSONs extraídos manualmente con 
             anterioridad para validar automáticamente la precisión de las 
