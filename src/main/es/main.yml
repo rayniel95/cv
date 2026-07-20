@@ -128,8 +128,6 @@ cv:
         highlights:
           - Creé una red Corda descentralizada utilizando instancias AWS EC2 y 
             Docker.
-          - Desplegué los nodos Corda en contenedores Docker dentro de instancias 
-            AWS EC2.
           - "Stack: Corda, Kotlin, AWS EC2, Amazon Web Services (AWS), Docker, Docker-compose, Thunder Client, Api Rest, Cloud."
     # Proyectos personales:
     #   - name: Raymed
