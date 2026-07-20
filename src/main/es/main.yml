@@ -73,45 +73,42 @@ cv:
         start_date: 2022-06
         end_date: 2025-07
         summary: >
-          Proyectos varios Datamart: Este proyecto tuvo como objetivo la creación de 
-          una plataforma SaaS para el banco chileno BCI. Esta plataforma permitía 
-          a los clientes del banco la apertura de cuentas para pymes (pequeñas y 
-          medianas empresas). Todo ello siguiendo un proceso guiado y desde las 
-          terminales móviles de cada cliente.
+          Proyectos varios Datamart:  Desarrollo de 
+          varias plataformas SaaS para clientes del sector financiero. Implementé 
+          infraestructura como código utilizando múltiples servicios de AWS, 
+          programé la lógica backend 
         highlights:
-          - Implementé más de 10 endpoints en un servidor de Django REST Framework, 
-            ayudando a desarrollar el núcleo principal del sistema.
-          - Construí un microservicio OTP (One-Time Password) seguro y sin servidor 
-            (serverless) utilizando AWS Lambda y DynamoDB, con expiración basada 
-            en el tiempo de vida (TTL), permitiendo la verificación de usuarios 
-            mediante correo electrónico.
-          - Implementé funciones AWS Lambda para procesar y manipular archivos 
-            JSON grandes y conjuntos de datos estructurados, habilitando un 
-            procesamiento de datos escalable y sin servidor.
+          - Impementación de (micro)servicios de backend, utilizando Python como
+            lenguaje de programación. 
+
+
+          - Utilicé el modelo de ramificación de Git Flow para obtener una mejor 
+            organización en el desarrollo del proyecto.
+          - Implementé Event Rules para las step functions, conectando la step 
+            function a AWS Event Bridge.
+          - Añadí capacidades de logging a las step functions, ayudando a 
+            visualizar todo el rastro de ejecución de la step function en AWS 
+            CloudWatch.
+            - Implementé endpoints que usan código SQL para actualizar, insertar o eliminar datos de la base de datos.
+- Transformé el código de AWS Lambda en flujos (pipelines) de AWS AppSync, migrando la lógica del código de Lambdas a endpoints de AppSync. Esto ayudó a eliminar el cold start de las Lambdas y reducir el tiempo de respuesta de 5-6 segundos a 2-3 segundos.
+- Diseñé e implementé un esquema GraphQL con más de 20 endpoints que incluyen mutaciones, consultas y suscripciones (comunicación mediante websockets con el frontend) y que fue utilizado por un AWS AppSync para gestionar la mayor parte de la lógica del sistema.
+- Añadí AWS CloudWatch Log Groups a todos los microservicios para monitorear el sistema y rastrear los errores.
+- Implementé múltiples AWS API Gateway (REST API) con más de 20 endpoints que actúan como proxy hacia un AWS AppSync (GraphQL) (u otros microservicios) y donde el sistema de Rankmi podía comunicarse con el sistema de Datamart.
+- Implementé consultas SQL complejas para crear paginación.
+- Añadí la funcionalidad para usar una plantilla de correo personalizada, almacenada en AWS S3, en una AWS Lambda que envía OTPs (One-Time Password o contraseñas de un solo uso) al correo de los empleados. Este microservicio era genérico, por lo que permitía la posibilidad de ser utilizado en otros productos.
+- Implementé una AWS Step Function para gestionar el flujo de trabajo de múltiples llamadas a API a diferentes microservicios y la manipulación de datos de manera serverless (sin servidor), reduciendo el costo y el tiempo de ejecución del microservicio.
+- Implementé múltiples alarmas AWS CloudWatch para Step Functions para habilitar monitoreo proactivo y detección rápida de fallos en los flujos de trabajo.
+- Comprobé la correctitud de los datos almacenados en la base de datos usando consultas SQL.
+- Validé el flujo de datos consultado la base de datos usando consultas SQL.
+- Construí un microservicio seguro, serverless de OTP (One-Time Password o contraseña de un solo uso) utilizando AWS Lambda y DynamoDB con expiración basada en TTL, habilitando la verificación de usuarios mediante correo electrónico.
+- Desarrollé más de 10 endpoints en un servidor Django REST API para dar soporte a la funcionalidad central del sistema.
+- Implementé múltiples scripts en Python para procesar y manipular archivos JSON de gran tamaño y conjuntos de datos estructurados, dando soporte a la funcionalidad central del sistema.
+- Implementé una AWS Step Function para gestionar el flujo de trabajo de múltiples llamadas a API a diferentes microservicios y la manipulación de datos de manera serverless (sin servidor), reduciendo el costo y el tiempo de ejecución del microservicio.
+
+# trabajo de backend con python, varios servicios de aws. microservicios,
+# logging y monitoring, api rest y graphql,
+# uso de sql para distintas cosas
           - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL, Api Rest."
-      - company: Datamart
-        position: Backend Developer | Cloud Developer
-        location: La Habana, Cuba
-        start_date: 2022-08
-        end_date: 2023-01
-        summary: >
-          Proyecto Nómina Avanzada: Este proyecto tuvo como objetivo la creación 
-          de una plataforma SaaS que pudiera ser usada por los ejecutivos de 
-          Rankmi para crear solicitudes de pago de una parte de la nómina de un 
-          trabajador. A través de una plataforma web, un empleado, podría 
-          solicitar a su empleador, un adelanto del sueldo trabajado.
-        highlights:
-          - Implementé múltiples AWS API Gateway (Rest API), con más de 20 
-            endpoints, los cuales actuaban como proxies de un AWS Appsync 
-            (GraphQl) u otros microservicios. Permitiendo la comunicación entre 
-            los sistemas de Rankmi y Datamart.
-          - Implementé consultas SQL complejas para crear paginación.
-          - Implementé una AWS Step Function (máquina de estados) para 
-            administrar el llamado a apis de múltiples microservicios, además de 
-            para la manipulación de datos. Esto en un entorno sin servidor 
-            (serverless), reduciendo el costo y tiempo de ejecución del 
-            microservicio.
-          - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin, Api Rest."
       - company: Elasbit
         position: Blockchain Developer | Cloud Developer
         location: La Habana, Cuba
