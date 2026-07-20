@@ -55,8 +55,7 @@ cv:
           previamente descargados del RES (Registro de Empresas y Sociedades), 
           extraía el texto del contrato y lo enviaba a un LLM (Large Language 
           Model o Modelo de Lenguaje de Gran Escala). Posteriormente, el LLM 
-          generaba un objeto JSON con los datos estructurados. Para este 
-          servicio, utilizamos GPT-4o como modelo de lenguaje.
+          generaba un objeto JSON con los datos estructurados.
         highlights:
           - Implementé un comparador que utiliza JSONs extraídos manualmente con 
             anterioridad para validar automáticamente la precisión de las 
