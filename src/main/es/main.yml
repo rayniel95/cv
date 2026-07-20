@@ -35,7 +35,7 @@ cv:
           Proyecto Applus: Este proyecto consistió en el desarrollo de una plataforma 
           web para la entidad certificadora acreditada Applus. La plataforma permite 
           estandarizar los procesos de inspección, crear nuevos flujos de inspección a 
-          partir de la normativa mediante asistencia de IA, interactuar con un 
+          partir de la normativa mediante asistencia de IA (inteligencia artificial), interactuar con un 
           chatbot impulsado por IA para responder preguntas sobre los procedimientos 
           de inspección.
         highlights:
@@ -54,7 +54,7 @@ cv:
           de empresas en formato PDF. El servicio leía los archivos PDF, 
           previamente descargados del RES (Registro de Empresas y Sociedades), 
           extraía el texto del contrato y lo enviaba a un LLM (Large Language 
-          Model o Modelo de Lenguaje de Gran Escala). Posteriormente, el LLM 
+          Model, inteligencia artificial). Posteriormente, el LLM 
           generaba un objeto JSON con los datos estructurados.
         highlights:
           - Implementé un comparador que utiliza JSONs extraídos manualmente con 
