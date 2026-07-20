@@ -137,9 +137,7 @@ cv:
           Proyecto AgTrace Blockchain: AgTrace es una startup brasileña que 
           propone una 
           solución de trazabilidad basada en blockchain para rastrear todas las 
-          etapas de la cadena alimentaria. En este proyecto, implementé 
-          una red Corda con todos los componentes necesarios para desplegar la 
-          solución del cliente.
+          etapas de la cadena alimentaria.
         highlights:
           - Creé una red Corda descentralizada utilizando instancias AWS EC2 y 
             Docker.
