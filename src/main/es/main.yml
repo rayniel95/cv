@@ -113,6 +113,22 @@ cv:
             (serverless), reduciendo el costo y tiempo de ejecución del 
             microservicio.
           - "Stack: Amazon Web Services (AWS), Python, Velocity Template Language (VTL), Serverless Framework, GraphQL, Boto3, GQL (GraphQL client), AWS Appsync, Postman, JSON Schema Draft 4, Yaml, AWS Lambda, AWS S3, AWS API Gateway (Rest API), AWS Step Function, Django REST Framework (DRF), AWS Lambda PowerTools, SQL, PostgreSQL, pgAdmin, Api Rest."
+      - company: Elasbit
+        position: Blockchain Developer | Cloud Developer
+        location: La Habana, Cuba
+        start_date: 2022-01
+        end_date: 2022-05
+        summary: >
+          Proyecto LadyBugs: Elasbit es una empresa chilena que tuvo la idea 
+          de crear una colección de NFTs y algunos juegos basados en esta 
+          colección.
+        highlights:
+          - Propuse el uso de técnicas criptográficas (p. ej. salting de 
+            contraseñas) para almacenar los datos del usuario en el 
+            contrato inteligente mejorando la seguridad.
+          - Utilicé funciones AWS Lambda, con Python, para implementar las 
+            funcionalidades del backend.
+          - "Stack: Solana, Amazon Web Services (AWS), Python, TypeScript, Rust, Anchor Framework, Serverless Framework, XState, React, BitBucket, GraphQL, Boto3, GQL (GraphQL client), AnchorPy, PyTest, Node.js, Mocha, Chai, Solana Web3."
       - company: AgTrace
         position: Backend Developer | Blockchain Developer
         location: La Habana, Cuba
