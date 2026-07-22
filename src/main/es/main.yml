@@ -78,36 +78,20 @@ cv:
           infraestructura como código utilizando múltiples servicios de AWS, 
           programé la lógica backend 
         highlights:
-          - Impementación de (micro)servicios de backend, utilizando Python como
-            lenguaje de programación. 
-
-
-          - Utilicé el modelo de ramificación de Git Flow para obtener una mejor 
-            organización en el desarrollo del proyecto.
-          - Implementé Event Rules para las step functions, conectando la step 
-            function a AWS Event Bridge.
-          - Añadí capacidades de logging a las step functions, ayudando a 
-            visualizar todo el rastro de ejecución de la step function en AWS 
-            CloudWatch.
-            - Implementé endpoints que usan código SQL para actualizar, insertar o eliminar datos de la base de datos.
-- Transformé el código de AWS Lambda en flujos (pipelines) de AWS AppSync, migrando la lógica del código de Lambdas a endpoints de AppSync. Esto ayudó a eliminar el cold start de las Lambdas y reducir el tiempo de respuesta de 5-6 segundos a 2-3 segundos.
-- Diseñé e implementé un esquema GraphQL con más de 20 endpoints que incluyen mutaciones, consultas y suscripciones (comunicación mediante websockets con el frontend) y que fue utilizado por un AWS AppSync para gestionar la mayor parte de la lógica del sistema.
-- Añadí AWS CloudWatch Log Groups a todos los microservicios para monitorear el sistema y rastrear los errores.
-- Implementé múltiples AWS API Gateway (REST API) con más de 20 endpoints que actúan como proxy hacia un AWS AppSync (GraphQL) (u otros microservicios) y donde el sistema de Rankmi podía comunicarse con el sistema de Datamart.
-- Implementé consultas SQL complejas para crear paginación.
-- Añadí la funcionalidad para usar una plantilla de correo personalizada, almacenada en AWS S3, en una AWS Lambda que envía OTPs (One-Time Password o contraseñas de un solo uso) al correo de los empleados. Este microservicio era genérico, por lo que permitía la posibilidad de ser utilizado en otros productos.
-- Implementé una AWS Step Function para gestionar el flujo de trabajo de múltiples llamadas a API a diferentes microservicios y la manipulación de datos de manera serverless (sin servidor), reduciendo el costo y el tiempo de ejecución del microservicio.
-- Implementé múltiples alarmas AWS CloudWatch para Step Functions para habilitar monitoreo proactivo y detección rápida de fallos en los flujos de trabajo.
-- Comprobé la correctitud de los datos almacenados en la base de datos usando consultas SQL.
-- Validé el flujo de datos consultado la base de datos usando consultas SQL.
-- Construí un microservicio seguro, serverless de OTP (One-Time Password o contraseña de un solo uso) utilizando AWS Lambda y DynamoDB con expiración basada en TTL, habilitando la verificación de usuarios mediante correo electrónico.
-- Desarrollé más de 10 endpoints en un servidor Django REST API para dar soporte a la funcionalidad central del sistema.
-- Implementé múltiples scripts en Python para procesar y manipular archivos JSON de gran tamaño y conjuntos de datos estructurados, dando soporte a la funcionalidad central del sistema.
-- Implementé una AWS Step Function para gestionar el flujo de trabajo de múltiples llamadas a API a diferentes microservicios y la manipulación de datos de manera serverless (sin servidor), reduciendo el costo y el tiempo de ejecución del microservicio.
-
-# trabajo de backend con python, varios servicios de aws. microservicios,
-# logging y monitoring, api rest y graphql,
-# uso de sql para distintas cosas
+          - Desarrollé microservicios backend y APIs escalables con Python, 
+            implementando servicios REST (Django REST, API Gateway) y GraphQL 
+            (AWS AppSync) con más de 50 endpoints, consultas SQL complejas y 
+            procesamiento de grandes volúmenes de datos (JSON) mediante AWS Lambda.
+          - Diseñé e implementé arquitecturas serverless sobre AWS utilizando 
+            Lambda, Step Functions, AppSync, EventBridge, DynamoDB, S3 y 
+            CloudWatch, incorporando flujos de trabajo, autenticación OTP, 
+            monitorización, logging y alarmas para mejorar la observabilidad y la 
+            resiliencia del sistema.
+          - Optimicé el rendimiento y la mantenibilidad de la plataforma, 
+            migrando más de 5.000 líneas de código, no documentado, de AWS Lambda a AppSync 
+            (reduciendo la latencia de 5–6 s a 2–3 s), documentando 
+            la arquitectura a partir de más de 10.000 líneas de código y 
+            aplicando buenas prácticas de desarrollo con Git Flow.
           - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL, Api Rest."
       - company: Elasbit
         position: Blockchain Developer | Cloud Developer
