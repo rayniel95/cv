@@ -73,10 +73,14 @@ cv:
         start_date: 2022-06
         end_date: 2025-07
         summary: >
-          Proyectos varios Datamart:  Desarrollo de 
-          varias plataformas SaaS para clientes del sector financiero. Implementé 
-          infraestructura como código utilizando múltiples servicios de AWS, 
-          programé la lógica backend 
+          Proyectos varios Datamart: Participé en el desarrollo de diversas 
+          plataformas SaaS para clientes del sector financiero y empresarial, 
+          implementando nuevas funcionalidades backend, arquitecturas serverless 
+          e infraestructura como código en AWS. Trabajé en el desarrollo de 
+          microservicios, APIs e integraciones entre sistemas, además de 
+          optimizar el rendimiento, la escalabilidad y la mantenibilidad de 
+          aplicaciones críticas, colaborando en todas las fases del ciclo de 
+          desarrollo.
         highlights:
           - Desarrollé microservicios backend y APIs escalables con Python, 
             implementando servicios REST (Django REST, API Gateway) y GraphQL 
