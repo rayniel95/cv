@@ -82,20 +82,11 @@ cv:
           aplicaciones críticas, colaborando en todas las fases del ciclo de 
           desarrollo.
         highlights:
-          - Desarrollé microservicios backend y APIs escalables con Python, 
-            implementando servicios REST (Django REST, API Gateway) y GraphQL 
-            (AWS AppSync) con más de 50 endpoints, consultas SQL complejas y 
-            procesamiento de grandes volúmenes de datos (JSON) mediante AWS Lambda.
-          - Diseñé e implementé arquitecturas serverless sobre AWS utilizando 
-            Lambda, Step Functions, AppSync, EventBridge, DynamoDB, S3 y 
-            CloudWatch, incorporando flujos de trabajo, autenticación OTP, 
-            monitorización, logging y alarmas para mejorar la observabilidad y la 
-            resiliencia del sistema.
-          - Optimicé el rendimiento y la mantenibilidad de la plataforma, 
-            migrando más de 5.000 líneas de código, no documentado, de AWS Lambda a AppSync 
-            (reduciendo la latencia de 5–6 s a 2–3 s), documentando 
-            la arquitectura a partir de más de 10.000 líneas de código y 
-            aplicando buenas prácticas de desarrollo con Git Flow.
+          - Desarrollé microservicios y APIs backend con Python, Django REST, GraphQL (AWS AppSync) y API Gateway, implementando más de 50 endpoints e integraciones con bases de datos mediante SQL.
+          - Diseñé e implementé arquitecturas serverless en AWS utilizando Lambda, Step Functions, EventBridge, DynamoDB, S3 y CloudWatch, desarrollando flujos de trabajo, procesamiento de datos y servicios de autenticación mediante OTP.
+          - Optimicé el rendimiento de la plataforma migrando más de 5.000 líneas de código de AWS Lambda a AWS AppSync Pipelines (VTL), eliminando el cold start y reduciendo los tiempos de respuesta de 5–6 s a 2–3 s.
+          - Mejoré la observabilidad y confiabilidad del sistema mediante logging centralizado, métricas y alarmas en CloudWatch, además de validar la integridad de los datos y optimizar consultas SQL complejas.
+          - Analicé y documenté la arquitectura de un sistema con más de 10.000 líneas de código no documentado, facilitando la incorporación de nuevos desarrolladores y aplicando buenas prácticas de desarrollo colaborativo con Git Flow.
           - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, Boto3, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL, Api Rest, JSON, AWS S3, AWS Lambda PowerTools, AWS CloudFormation, Infraestructura como Código (IaC), PyTest, PydanticAI, Pydantic."
       - company: Elasbit
         position: Blockchain Developer | Cloud Developer
@@ -105,8 +96,11 @@ cv:
         summary: >
           Proyecto LadyBugs: Elasbit es una empresa chilena que tuvo la idea 
           de crear una colección de NFTs y algunos juegos basados en esta 
-          colección.
+          colección. El cliente ya tenía la solución para acuñar (mintear o crear) 
+          los NFTs usando Metaplex, pero no tenía los contratos inteligentes 
+          necesarios para los juegos.
         highlights:
+          - Implementé y desplegué el contrato inteligente usando Rust.
           - Propuse el uso de técnicas criptográficas (p. ej. salting de 
             contraseñas) para almacenar los datos del usuario en el 
             contrato inteligente mejorando la seguridad.
@@ -122,7 +116,11 @@ cv:
           Proyecto AgTrace Blockchain: AgTrace es una startup brasileña que 
           propone una 
           solución de trazabilidad basada en blockchain para rastrear todas las 
-          etapas de la cadena alimentaria.
+          etapas de la cadena alimentaria. El cliente ya tenía implementado los 
+          contratos inteligentes, pero no contaba 
+          con la red permissionada necesaria para ponerlos en funcionamiento. 
+          Dado que Corda es una blockchain permissionada, la idea fue 
+          crear una red para desplegar el contrato.
         highlights:
           - Creé una red Corda descentralizada utilizando instancias AWS EC2 y 
             Docker.
