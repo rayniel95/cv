@@ -129,9 +129,7 @@ cv:
           solución de trazabilidad basada en blockchain para rastrear todas las 
           etapas de la cadena alimentaria. El cliente ya tenía implementado los 
           contratos inteligentes, pero no contaba 
-          con la red permissionada necesaria para ponerlos en funcionamiento. 
-          Dado que Corda es una blockchain permissionada, la idea fue 
-          crear una red para desplegar el contrato.
+          con la red permissionada necesaria para ponerlos en funcionamiento.
         highlights:
           - Creé una red Corda descentralizada utilizando instancias AWS EC2 y 
             Docker.
