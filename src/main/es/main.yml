@@ -96,11 +96,9 @@ cv:
         summary: >
           Proyecto LadyBugs: Elasbit es una empresa chilena que tuvo la idea 
           de crear una colección de NFTs y algunos juegos basados en esta 
-          colección. El cliente ya tenía la solución para acuñar (mintear o crear) 
-          los NFTs usando Metaplex, pero no tenía los contratos inteligentes 
-          necesarios para los juegos.
+          colección. 
         highlights:
-          - Implementé y desplegué el contrato inteligente usando Rust.
+          - Implementé y desplegué el contrato inteligente, para los NFTs, usando Rust.
           - Propuse el uso de técnicas criptográficas (p. ej. salting de 
             contraseñas) para almacenar los datos del usuario en el 
             contrato inteligente mejorando la seguridad.
