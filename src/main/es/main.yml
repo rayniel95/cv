@@ -88,7 +88,8 @@ cv:
             mediante SQL.
           - Diseñé e implementé soluciones serverless en AWS utilizando Lambda, 
             Step Functions, EventBridge, DynamoDB, S3 y CloudWatch, desarrollando 
-            flujos de trabajo, procesamiento de datos y servicios de autenticación 
+            flujos de trabajo, procesamiento de datos, monitorización, logging, 
+            alarmas para mejorar la observabilidad y servicios de autenticación 
             mediante OTP.
           - Optimicé el rendimiento de la plataforma migrando más de 5.000 líneas 
             de código de AWS Lambda a AWS AppSync Pipelines (VTL), eliminando el 
