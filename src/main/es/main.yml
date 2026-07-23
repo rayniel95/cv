@@ -82,11 +82,11 @@ cv:
           aplicaciones críticas, colaborando en todas las fases del ciclo de 
           desarrollo.
         highlights:
-          - Desarrollé microservicios backend y APIs escalables con Python, 
-            implementando servicios REST (Django REST Framework, AWS API Gateway) y 
-            GraphQL (AWS AppSync). Creando más de 50 endpoints 
-            e integraciones con bases de datos mediante SQL.
-          - Diseñé e implementé arquitecturas serverless en AWS utilizando Lambda, 
+          - Desarrollé microservicios backend escalables con Python, implementando APIs 
+            REST con Django REST Framework y API Gateway y APIs GraphQL con AWS AppSync, 
+            desarrollando más de 50 endpoints e integraciones con bases de datos 
+            mediante SQL.
+          - Diseñé e implementé soluciones serverless en AWS utilizando Lambda, 
             Step Functions, EventBridge, DynamoDB, S3 y CloudWatch, desarrollando 
             flujos de trabajo, procesamiento de datos y servicios de autenticación 
             mediante OTP.
