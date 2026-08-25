@@ -1,157 +1,88 @@
 cv:
   name: Rainyel Ramos González
+  headline: Gestión, seguimiento y evaluación de proyectos
   location: Ourense, Galicia, España
   email: rainyel.ramos@gmail.com
   phone: "+34 635200752"
-  website: 
+  website:
     - https://rayniel95.github.io
     - https://www.linkedin.com/in/rainyel-ramos
     - https://github.com/rayniel95
 
   sections:
-    Acerca de mí:
+    Perfil profesional:
       - |
-        Ingeniero de Software con casi 5 años de experiencia en el desarrollo 
-        de aplicaciones backend y soluciones cloud sobre AWS. He diseñado e 
-        implementado arquitecturas 
-        escalables y mantenibles utilizando principalmente Python y Node.js 
-        (TypeScript). Me 
-        adapto con rapidez a nuevas tecnologías y lenguajes. Además de mi 
-        experiencia profesional, he desarrollado proyectos personales con Rust, 
-        Go, Solidity, React, C#, Prolog y 
-        ensamblador x86, lo que me permite abordar los problemas desde una 
-        perspectiva amplia y elegir la tecnología más adecuada para cada caso. 
-        Disfruto enfrentándome a retos técnicos, aprendiendo continuamente y 
-        colaborando en equipos ágiles (Scrum) para construir software de 
-        calidad que aporte valor al negocio.
+        Graduado en Ciencia de la Computación, con el título homologado en España, y experiencia en proyectos tecnológicos y de investigación desarrollados con equipos multidisciplinares. He participado en la definición, redacción y presentación de propuestas técnicas, la ejecución y seguimiento de actividades, la coordinación con equipos y clientes, la elaboración de documentación e informes de avance y la evaluación de resultados mediante pruebas y métricas. Aporto organización, comunicación clara, capacidad de seguimiento y sensibilidad para trabajar con entidades y colectivos del ámbito social.
 
-    Experiencia:
+    Competencias clave:
+      - bullet: Redacción, presentación y documentación de proyectos, propuestas técnicas, procedimientos y resultados.
+      - bullet: Planificación, coordinación y seguimiento de actividades, tareas, hitos e incidencias.
+      - bullet: Preparación de informes de avance y comunicación del estado del proyecto a las partes implicadas.
+      - bullet: Evaluación y control de calidad mediante pruebas, validación de resultados y revisión de datos.
+      - bullet: Coordinación con clientes, responsables de producto, equipos técnicos y personal académico.
+      - bullet: Organización del trabajo con Jira, Scrum, reuniones de seguimiento y gestión de incidencias.
+      - bullet: "Ofimática y comunicación: Microsoft Word, Excel, PowerPoint, SPSS Statistics, EndNote, correo electrónico e Internet."
+      - bullet: "Análisis y validación: SQL, Postman, pruebas unitarias, validación de datos y monitorización de sistemas."
+      - bullet: "Idiomas: español nativo e inglés intermedio (B2)."
+
+    Experiencia profesional:
       - company: Deep Kernel Labs
-        position: Software Engineer | Data Engineer
+        position: Ingeniero de Software e Ingeniero de Datos
         location: Ourense, Galicia, España
         start_date: 2026-04
         end_date: 2026-06
         summary: >
-          Proyecto Applus: Este proyecto consistió en el desarrollo de una plataforma 
-          web para la entidad certificadora acreditada Applus. La plataforma permite 
-          estandarizar los procesos de inspección, crear nuevos flujos de inspección a 
-          partir de la normativa mediante asistencia de IA (inteligencia artificial), interactuar con un 
-          chatbot impulsado por IA para responder preguntas sobre los procedimientos 
-          de inspección.
+          Proyecto Applus: desarrollo de una plataforma web de prueba de concepto para estandarizar procesos de inspección y trabajar con normativa regulatoria.
         highlights:
-          - Contribuí al diseño de la arquitectura de la plataforma, colaborando en la definición de la estructura general del sistema y en la toma de decisiones técnicas.
-          - Diseñé e implementé, usando Python, React y desarrollo asistido por IA, una funcionalidad que permite visualizar las fuentes normativas referenciadas en cada paso del proceso de inspección, proporcionando trazabilidad directa entre los procedimientos de inspección y los requisitos regulatorios correspondientes.
-          - Extendí, utilizando Python, docling y desarrollo asistido por IA, una biblioteca existente para extraer y convertir secciones de documentos normativos a HTML, permitiendo que los LLMs procesaran la información de forma más eficiente y precisa.
-          - "Stack: Python, Django Rest Framework, JSON, SQL, PostgreSQL, pgAdmin, Claude Code (Opus 4.7), Git, Github, React, Docker, docker-compose, docling (Python library), contenedores, Api Rest."
+          - Contribuí a la definición de la arquitectura, la planificación de tareas y la toma de decisiones técnicas del proyecto.
+          - Organicé y realicé el seguimiento de las tareas asignadas mediante Jira y Scrum, comunicando avances, incidencias y decisiones en reuniones diarias.
+          - Documenté y validé funcionalidades relacionadas con procesos, documentos y respuestas generadas mediante inteligencia artificial.
+          - Revisé resultados y ejecuté pruebas unitarias y casos extremos para evaluar la corrección y fiabilidad de la solución.
+          - Diseñé una funcionalidad para visualizar las fuentes regulatorias referenciadas en cada paso del proceso, aportando trazabilidad entre procedimientos y requisitos.
+
       - company: Datamart
-        position: Backend Developer | Cloud Developer
-        location: La Habana, Cuba
-        start_date: 2025-08
-        end_date: 2025-12
-        summary: >
-          Proyecto Bylaws: Este proyecto consistió en desarrollar un servicio 
-          para extraer datos estructurados a partir de contratos de constitución 
-          de empresas en formato PDF. El servicio leía los archivos PDF, 
-          previamente descargados del RES (Registro de Empresas y Sociedades), 
-          extraía el texto del contrato y lo enviaba a un LLM (Large Language 
-          Model, inteligencia artificial). Posteriormente, el LLM 
-          generaba un objeto JSON con los datos estructurados.
-        highlights:
-          - Implementé un comparador que utiliza JSONs extraídos manualmente con 
-            anterioridad para validar automáticamente la precisión de las 
-            respuestas del LLM.
-          - Implementé la lógica backend para recibir el RUT de la empresa, 
-            buscar su contrato de constitución, enviarlo al LLM y recibir el 
-            archivo JSON estructurado como resultado.
-          - Validé la funcionalidad de la API REST y el cumplimiento del contrato 
-            de la misma utilizando Postman, asegurando que los endpoints 
-            cumplieran con las especificaciones esperadas de solicitud/respuesta.
-          - "Stack: Amazon Web Services (AWS), Python, BitBucket, Boto3, Postman, AWS Lambda Functions, JSON, AWS S3, Pydantic, SQL, PostgreSQL, pgAdmin."
-      - company: Datamart
-        position: Backend Developer | Cloud Developer
+        position: Desarrollador backend y cloud
         location: La Habana, Cuba
         start_date: 2022-06
         end_date: 2025-07
         summary: >
-          Proyectos varios Datamart: Participé en el desarrollo de diversas 
-          plataformas SaaS para clientes del sector financiero y empresarial, 
-          implementando nuevas funcionalidades backend, arquitecturas serverless 
-          e infraestructura como código en AWS con Node.js (Typescript). Trabajé en el desarrollo de 
-          microservicios, APIs e integraciones entre sistemas, además de 
-          optimizar el rendimiento, la escalabilidad y la mantenibilidad de 
-          aplicaciones críticas, colaborando en todas las fases del ciclo de 
-          desarrollo.
+          Participación en proyectos SaaS para clientes del sector financiero y empresarial, desde el análisis de necesidades y la definición de flujos hasta la implementación, las pruebas y el seguimiento posterior.
         highlights:
-          - Desarrollé microservicios backend escalables con Python, implementando APIs 
-            REST con Django REST Framework y API Gateway y APIs GraphQL con AWS AppSync, 
-            desarrollando más de 50 endpoints e integraciones con bases de datos 
-            mediante SQL.
-          - Diseñé e implementé soluciones serverless en AWS utilizando Lambda, 
-            Step Functions, EventBridge, DynamoDB, S3 y CloudWatch, desarrollando 
-            flujos de trabajo, procesamiento y manipulación de datos, monitorización y servicios 
-            de autenticación mediante OTP.
-          - Optimicé el rendimiento y la escalabilidad de la plataforma migrando 
-            más de 5.000 líneas de código, no documentado y legacy, de AWS Lambda 
-            a AWS AppSync
-            (VTL), eliminando el cold start y reduciendo los tiempos de respuesta 
-            de 5–6 s a 2–3 s, además de mejorar la observabilidad mediante logging 
-            y alarmas.
-          - Analicé y documenté la arquitectura de un sistema con más de 10.000 
-            líneas de código, no documentado y legacy, validé la integridad de los 
-            datos mediante SQL y 
-            apliqué buenas prácticas de desarrollo colaborativo con Git Flow.
-          - "Stack: Amazon Web Services (AWS), Python, Serverless Framework, BitBucket, GraphQL, Boto3, AWS Appsync, Postman, AWS Lambda Functions, AWS CDK Framework, Typescript, Django Rest Framework, AWS Step Functions, Boto3, AWS DynamoDB, Xstate.js, Node.js, AWS Apigateway, PostgreSQL, pgAdmin, SQL, Api Rest, JSON, AWS S3, AWS Lambda PowerTools, AWS CloudFormation, Infraestructura como Código (IaC), PyTest, PydanticAI, Pydantic."
-      - company: Elasbit
-        position: Blockchain Developer | Cloud Developer
+          - Coordiné el trabajo diario con equipos de desarrollo, cloud, frontend, Scrum Masters, Product Owners y responsables técnicos.
+          - Gestioné tareas e incidencias en Jira, informé del progreso en reuniones de seguimiento y propuse mejoras de arquitectura y funcionamiento.
+          - Elaboré diagramas de arquitectura y documentación de sistemas para facilitar la incorporación de nuevos miembros y el seguimiento del flujo de información.
+          - Validé funcionalidades, contratos de API y datos almacenados mediante Postman, consultas SQL y pruebas automatizadas.
+          - Monitoricé flujos de trabajo y colas para detectar incidencias, informar de riesgos y contribuir a la resolución temprana de errores.
+          - Participé en revisiones de código, pruebas con responsables del proyecto y sesiones de transferencia de conocimiento.
+
+      - company: Universidad de La Habana
+        position: Desarrollador blockchain, investigador y profesor
         location: La Habana, Cuba
-        start_date: 2022-01
-        end_date: 2022-05
+        start_date: 2021-04
+        end_date: present
         summary: >
-          Proyecto LadyBugs: Elasbit es una empresa chilena que tuvo la idea 
-          de crear una colección de NFTs y algunos juegos basados en esta 
-          colección. 
+          Investigación y desarrollo de soluciones blockchain, junto con formación y divulgación tecnológica en equipos académicos.
         highlights:
-          - Implementé y desplegué el contrato inteligente, para los NFTs, usando Rust.
-          - Propuse el uso de técnicas criptográficas (p. ej. salting de 
-            contraseñas) para almacenar los datos del usuario en el 
-            contrato inteligente mejorando la seguridad.
-          - Utilicé funciones AWS Lambda, con Python, para implementar las 
-            funcionalidades del backend.
-          - "Stack: Solana, Amazon Web Services (AWS), Python, TypeScript, Rust, Anchor Framework, Serverless Framework, XState, React, BitBucket, GraphQL, Boto3, GQL (GraphQL client), AnchorPy, PyTest, Node.js, Mocha, Chai, Solana Web3."
-      - company: AgTrace
-        position: Backend Developer | Blockchain Developer
+          - Investigué y evalué la viabilidad de distintas soluciones tecnológicas para proyectos de blockchain y sistemas distribuidos.
+          - Diseñé e implementé RainyelCert, una red para la firma y el almacenamiento de certificados.
+          - Preparé y desarrollé seminarios universitarios para divulgar los beneficios y posibles aplicaciones de blockchain en la economía.
+          - Formé a estudiantes y coordiné actividades de aprendizaje sobre tecnología, herramientas y casos de uso.
+          - Trabajé en equipo con investigadores y comuniqué avances y resultados técnicos.
+
+      - company: Universidad de La Habana, Facultad de Filosofía e Historia
+        position: Profesor asistente de Informática, voluntariado
         location: La Habana, Cuba
-        start_date: 2021-10
-        end_date: 2021-11
+        start_date: 2018-10
+        end_date: 2020-01
         summary: >
-          Proyecto AgTrace Blockchain: AgTrace es una startup brasileña que 
-          propone una 
-          solución de trazabilidad basada en blockchain para rastrear todas las 
-          etapas de la cadena alimentaria. El cliente ya tenía implementado los 
-          contratos inteligentes, pero no contaba 
-          con la red permissionada necesaria para ponerlos en funcionamiento.
+          Formación en herramientas digitales para estudiantes de Sociología y Filosofía, con coordinación académica y evaluación del progreso.
         highlights:
-          - Creé una red Corda descentralizada utilizando instancias AWS EC2 y 
-            Docker.
-          - "Stack: Corda, Kotlin, AWS EC2, Amazon Web Services (AWS), Docker, Docker-compose, Thunder Client, Api Rest, Cloud."
-    # Proyectos personales:
-    #   - name: Raymed
-    #     start_date: 2025-01
-    #     end_date: 2025-02
-    #     summary: >
-    #       Este proyecto es un panel de administración de historiales clínicos. A 
-    #       través del panel, es posible almacenar información sobre pacientes, 
-    #       administradores y médicos, o añadir información sobre exposiciones a 
-    #       fármacos y notas de pacientes. Toda la información se almacena como 
-    #       NFTs (Non-Fungible Tokens o Tokens No Fungibles) en la testnet de 
-    #       Sepolia (Ethereum).
-    #     highlights:
-    #       - Implementé contratos inteligentes de NFTs (ERC-721) para 
-    #         administradores, médicos, pacientes, exposiciones a fármacos y notas, 
-    #         utilizando herencia para mejorar la legibilidad y reutilización del 
-    #         código.
-    #       - "Stack: Typescript, React, Next.js, Node.js, Bootstrap, Alchemy SDK, Hardhat, Hardhat Ignition, React Query, RainbowKit, Pinata, React Admin, Viem, Solidity, HTML, CSS."
-    Educación:
+          - Diseñé e impartí cursos de informática sobre Microsoft Word, Excel, PowerPoint, EndNote, SPSS Statistics, búsqueda en Internet y seguridad básica.
+          - Diseñé y revisé pruebas, evalué el progreso del alumnado e informé al profesorado sobre resultados y necesidades de apoyo.
+          - Coordiné con el decano y la vicedecana las fechas y horarios de exámenes y conferencias.
+          - Adapté la comunicación y los contenidos a personas sin formación informática, experiencia aplicable al trabajo con colectivos del ámbito social.
+
+    Formación:
       - institution: Universidad de La Habana
         area: Ciencia de la Computación
         location: La Habana, Cuba
@@ -159,12 +90,10 @@ cv:
         start_date: 2015-09
         end_date: 2020-06
         highlights:
-          - Título de grado homologado en España. Contactar para solicitar credencial.
-          - "Lenguajes: Español (Nativo), Inglés (B2)"
-    # Lenguajes:
-    #   - bullet: Español (Nativo)
-    #   - bullet: Inglés (B2)
+          - Título de grado homologado en España.
+          - "Formación relacionada: ingeniería de software, sistemas de información, bases de datos, estadística, análisis y diseño de algoritmos e investigación aplicada a proyectos técnicos."
+
 locale:
   language: spanish
 design:
-  theme: engineeringclassic
+  theme: classic
