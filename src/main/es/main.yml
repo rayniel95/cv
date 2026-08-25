@@ -10,18 +10,14 @@ cv:
   sections:
     Perfil profesional:
       - |
-        Licenciado en Ciencia de la Computación, con el título universitario homologado en España, y experiencia en proyectos tecnológicos y de investigación desarrollados con equipos multidisciplinares. He participado en la definición, redacción y presentación de propuestas técnicas, la ejecución y seguimiento de actividades, la coordinación con equipos y clientes, la elaboración de documentación e informes de avance y la evaluación de resultados mediante pruebas y métricas. Aporto organización, comunicación clara, capacidad de seguimiento y sensibilidad para trabajar con entidades y colectivos del ámbito social.
+        Licenciado en Ciencia de la Computación, con el título universitario homologado en España y experiencia en proyectos multidisciplinares. He coordinado tareas, realizado el seguimiento de actividades e incidencias, elaborado documentación e informes y evaluado resultados. Aporto organización, comunicación clara y experiencia formando a colectivos del ámbito social.
 
     Competencias clave:
-      - bullet: Redacción, presentación y documentación de proyectos, propuestas técnicas, procedimientos y resultados.
+      - bullet: Redacción, presentación y documentación de proyectos, propuestas técnicas, procedimientos e informes.
       - bullet: Planificación, coordinación y seguimiento de actividades, tareas, hitos e incidencias.
-      - bullet: Preparación de informes de avance y comunicación del estado del proyecto a las partes implicadas.
       - bullet: Evaluación y control de calidad mediante pruebas, validación de resultados y revisión de datos.
-      - bullet: Coordinación con clientes, responsables de producto, equipos técnicos y personal académico.
-      - bullet: Organización del trabajo con Jira, Scrum, reuniones de seguimiento y gestión de incidencias.
-      - bullet: "Ofimática y comunicación: Microsoft Word, Excel, PowerPoint, SPSS Statistics, EndNote, correo electrónico e Internet."
-      - bullet: "Análisis y validación: SQL, Postman, pruebas unitarias, validación de datos y monitorización de sistemas."
-      - bullet: "Idiomas: español nativo e inglés intermedio (B2)."
+      - bullet: "Coordinación y comunicación con clientes, equipos y responsables de proyecto; Jira, Scrum y seguimiento de incidencias."
+      - bullet: "Ofimática y análisis: Word, Excel, PowerPoint, SPSS, EndNote, correo electrónico, Internet, SQL y Postman. Español nativo e inglés B2."
 
     Experiencia profesional:
       - company: Deep Kernel Labs
@@ -30,13 +26,10 @@ cv:
         start_date: 2026-04
         end_date: 2026-06
         summary: >
-          Proyecto Applus: desarrollo de una plataforma web de prueba de concepto para estandarizar procesos de inspección y trabajar con normativa regulatoria.
+          Proyecto Applus: plataforma de prueba de concepto para estandarizar procesos de inspección y trabajar con normativa regulatoria.
         highlights:
-          - Contribuí a la definición de la arquitectura, la planificación de tareas y la toma de decisiones técnicas del proyecto.
-          - Organicé y realicé el seguimiento de las tareas asignadas mediante Jira y Scrum, comunicando avances, incidencias y decisiones en reuniones diarias.
-          - Documenté y validé funcionalidades relacionadas con procesos, documentos y respuestas generadas mediante inteligencia artificial.
-          - Revisé resultados y ejecuté pruebas unitarias y casos extremos para evaluar la corrección y fiabilidad de la solución.
-          - Diseñé una funcionalidad para visualizar las fuentes regulatorias referenciadas en cada paso del proceso, aportando trazabilidad entre procedimientos y requisitos.
+          - Participé en la definición, planificación y seguimiento de tareas mediante Jira y Scrum, comunicando avances e incidencias.
+          - Documenté, validé y evalué funcionalidades mediante pruebas, y diseñé trazabilidad entre procedimientos y requisitos regulatorios.
 
       - company: Datamart
         position: Desarrollador backend y cloud
@@ -44,41 +37,15 @@ cv:
         start_date: 2022-06
         end_date: 2025-07
         summary: >
-          Participación en proyectos SaaS para clientes del sector financiero y empresarial, desde el análisis de necesidades y la definición de flujos hasta la implementación, las pruebas y el seguimiento posterior.
+          Proyectos SaaS para clientes financieros y empresariales, desde el análisis de necesidades y la definición de flujos hasta la implementación, las pruebas y el seguimiento posterior.
         highlights:
           - Coordiné el trabajo diario con equipos de desarrollo, cloud, frontend, Scrum Masters, Product Owners y responsables técnicos.
-          - Gestioné tareas e incidencias en Jira, informé del progreso en reuniones de seguimiento y propuse mejoras de arquitectura y funcionamiento.
-          - Elaboré diagramas de arquitectura y documentación de sistemas para facilitar la incorporación de nuevos miembros y el seguimiento del flujo de información.
-          - Validé funcionalidades, contratos de API y datos almacenados mediante Postman, consultas SQL y pruebas automatizadas.
-          - Monitoricé flujos de trabajo y colas para detectar incidencias, informar de riesgos y contribuir a la resolución temprana de errores.
-          - Participé en revisiones de código, pruebas con responsables del proyecto y sesiones de transferencia de conocimiento.
+          - Gestioné tareas e incidencias en Jira, informé del progreso y comuniqué riesgos y propuestas de mejora en reuniones de seguimiento.
+          - Elaboré documentación y diagramas de sistemas, y validé funcionalidades, contratos de API y datos mediante Postman, SQL y pruebas automatizadas.
 
-      - company: Universidad de La Habana
-        position: Desarrollador blockchain, investigador y profesor
-        location: La Habana, Cuba
-        start_date: 2021-04
-        end_date: present
-        summary: >
-          Investigación y desarrollo de soluciones blockchain, junto con formación y divulgación tecnológica en equipos académicos.
-        highlights:
-          - Investigué y evalué la viabilidad de distintas soluciones tecnológicas para proyectos de blockchain y sistemas distribuidos.
-          - Diseñé e implementé RainyelCert, una red para la firma y el almacenamiento de certificados.
-          - Preparé y desarrollé seminarios universitarios para divulgar los beneficios y posibles aplicaciones de blockchain en la economía.
-          - Formé a estudiantes y coordiné actividades de aprendizaje sobre tecnología, herramientas y casos de uso.
-          - Trabajé en equipo con investigadores y comuniqué avances y resultados técnicos.
-
-      - company: Universidad de La Habana, Facultad de Filosofía e Historia
-        position: Profesor asistente de Informática, voluntariado
-        location: La Habana, Cuba
-        start_date: 2018-10
-        end_date: 2020-01
-        summary: >
-          Formación en herramientas digitales para estudiantes de Sociología y Filosofía, con coordinación académica y evaluación del progreso.
-        highlights:
-          - Diseñé e impartí cursos de informática sobre Microsoft Word, Excel, PowerPoint, EndNote, SPSS Statistics, búsqueda en Internet y seguridad básica.
-          - Diseñé y revisé pruebas, evalué el progreso del alumnado e informé al profesorado sobre resultados y necesidades de apoyo.
-          - Coordiné con el decano y la vicedecana las fechas y horarios de exámenes y conferencias.
-          - Adapté la comunicación y los contenidos a personas sin formación informática, experiencia aplicable al trabajo con colectivos del ámbito social.
+    Experiencia académica y voluntariado:
+      - bullet: "Universidad de La Habana (2021 – presente): investigador, formador y profesor. Evaluación de soluciones, coordinación de actividades, seminarios y comunicación de resultados."
+      - bullet: "Profesor asistente voluntario (2018 – 2020): formación en ofimática e Internet para Sociología y Filosofía, diseño de pruebas, evaluación del alumnado y coordinación académica."
 
     Formación:
       - institution: Universidad de La Habana
@@ -89,7 +56,6 @@ cv:
         end_date: 2020-06
         highlights:
           - Título universitario homologado en España.
-          - "Formación relacionada: ingeniería de software, sistemas de información, bases de datos, estadística, análisis y diseño de algoritmos e investigación aplicada a proyectos técnicos."
 
 locale:
   language: spanish
