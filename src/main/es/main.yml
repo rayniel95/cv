@@ -1,6 +1,6 @@
 cv:
   name: Rainyel Ramos González
-  headline: Técnico de proyectos | Redacción, coordinación y seguimiento
+  headline: Técnico de proyectos | Formación, coordinación y seguimiento
   location: Ourense, Galicia, España
   email: rainyel.ramos@gmail.com
   phone: "+34 635200752"
@@ -10,14 +10,14 @@ cv:
   sections:
     Perfil profesional:
       - |
-        Licenciado en Ciencia de la Computación, con el título universitario homologado en España y experiencia en proyectos multidisciplinares. He coordinado tareas, realizado el seguimiento de actividades e incidencias, elaborado documentación e informes y evaluado resultados. Aporto organización, comunicación clara y experiencia formando a colectivos del ámbito social.
+        Licenciado en Ciencia de la Computación, con el título universitario homologado en España y experiencia en proyectos multidisciplinares y formación de estudiantes del ámbito social. He coordinado actividades, seguido y evaluado el progreso, elaborado documentación e informes y comunicado resultados. Aporto organización, comunicación clara y motivación por contribuir a programas de formación e inserción laboral.
 
     Competencias clave:
-      - bullet: Redacción, presentación y documentación de proyectos, propuestas técnicas, procedimientos e informes.
-      - bullet: Planificación, coordinación y seguimiento de actividades, tareas, hitos e incidencias.
-      - bullet: Evaluación y control de calidad mediante pruebas, validación de resultados y revisión de datos.
-      - bullet: "Coordinación y comunicación con clientes, equipos y responsables de proyecto; Jira, Scrum y seguimiento de incidencias."
-      - bullet: "Ofimática y análisis: Word, Excel, PowerPoint, SPSS, EndNote, correo electrónico, Internet, SQL y Postman. Español nativo e inglés B2."
+      - bullet: Elaboración de documentación técnica, procedimientos e informes de seguimiento de proyectos.
+      - bullet: Planificación, coordinación, seguimiento y evaluación continua de actividades, tareas e incidencias.
+      - bullet: Diseño e impartición de formación, materiales y exámenes; evaluación del progreso y detección de necesidades de apoyo.
+      - bullet: "Coordinación y comunicación con equipos, responsables y entidades académicas; Jira, Scrum y reuniones de seguimiento."
+      - bullet: "Ofimática y comunicación: Word, Excel, PowerPoint, SPSS, correo electrónico e Internet. Español nativo e inglés intermedio."
 
     Experiencia profesional:
       - company: Deep Kernel Labs
@@ -44,8 +44,8 @@ cv:
           - Elaboré documentación y diagramas de sistemas, y validé funcionalidades, contratos de API y datos mediante Postman, SQL y pruebas automatizadas.
 
     Experiencia académica y voluntariado:
-      - bullet: "Universidad de La Habana (2021 – 2022): investigador, formador y profesor. Evaluación de soluciones, coordinación de actividades, seminarios y comunicación de resultados."
-      - bullet: "Profesor asistente voluntario (2018 – 2020): formación en ofimática e Internet para estudiantes de Sociología y Filosofía, diseño de exámenes, evaluación del alumnado y coordinación académica."
+      - bullet: "Universidad de La Habana (2021 – 2022): investigador, formador y profesor. Preparé seminarios, coordiné actividades de aprendizaje y comuniqué resultados."
+      - bullet: "Profesor asistente voluntario (2018 – 2020): formación en ofimática e Internet para estudiantes de Sociología y Filosofía; diseño de exámenes, evaluación del progreso y coordinación académica."
 
     Formación:
       - institution: Universidad de La Habana
@@ -56,6 +56,7 @@ cv:
         end_date: 2020-06
         highlights:
           - Título universitario homologado en España.
+
 
 locale:
   language: spanish
